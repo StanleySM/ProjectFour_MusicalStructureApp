@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.android.projectfour_musicalstructureapp.SongListActivity">
+
+    <TextView
+        style="@style/hint_text_view"
+        android:background="@drawable/rounded_text_view"
+        android:text="@string/song_list" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/playlist_first"
+                    android:drawableStart="@drawable/ic_photo_album_white_24dp"
+                    style="@style/song_list"
+                    android:text="@string/playlist_first" />
+
+                  <TextView
+                    android:id="@+id/playlist_second"
+                    android:drawableStart="@drawable/ic_photo_album_white_24dp"
+                    style="@style/song_list"
+                    android:text="@string/playlist_second"/>
+
+                  <TextView
+                    android:id="@+id/playlist_third"
+                    android:drawableStart="@drawable/ic_photo_album_white_24dp"
+                    style="@style/song_list"
+                    android:text="@string/playlist_third" />
+
+                    <TextView
+                    android:id="@+id/playlist_fourth"
+                    android:drawableStart="@drawable/ic_photo_album_white_24dp"
+                    style="@style/song_list"
+                    android:text="@string/playlist_fourth" />
+
+                    <TextView
+                    android:id="@+id/playlist_fifth"
+                    android:drawableStart="@drawable/ic_photo_album_white_24dp"
+                    style="@style/song_list"
+                    android:text="@string/playlist_fifth" />
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

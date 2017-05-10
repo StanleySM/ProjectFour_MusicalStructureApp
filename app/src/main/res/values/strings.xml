@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="song_activity">Main player</string>
+    <string name="song_list_activity">Favorite songs</string>
+    <string name="playlist_activity">Playlist</string>
+    <string name="stream_activity">Stream</string>
+
+    <string name="menu_now_playing">Now Playing</string>
+    <string name="menu_playlist">Playlist</string>
+    <string name="menu_stream">Stream</string>
+    <string name="menu_favorite">Favorite songs</string>
+
+    <string name="quick_search">Quick play...</string>
+    <string name="first_group">Best of 80s</string>
+    <string name="second_group">Best of 90s</string>
+    <string name="third_group">Best of Chill</string>
+    <string name="four_group">Create a new group</string>
+
+    <string name="album_image">Image of album</string>
+    <string name="player_buttons">Button of player</string>
+
+    <string name="play_pause_button">Play or pause song</string>
+    <string name="next_song_button">Play next song</string>
+    <string name="favorite_button">Like this song</string>
+
+
+    <string name="main_screen">HINT: Choose your way to go on the player. At the bottom you can see the last song you listen and you can let it go from the last pause.</string>
+    <string name="playlist_layout">HINT: You can browse your favorite songs divided into groups. Of course, creating your own groups.</string>
+    <string name="stream_layout">HINT: Activity where you can choose any streaming radio from the ArrayAdapter.</string>
+    <string name="big_player_layout">HINT: This is the standard layout for the players. ImageView for an album image. Five ImageView for player controls.</string>
+    <string name="song_list">HINT: A list of favorite songs, when you click on the song, the player starts.</string>
+
+    <string name="stream_name">Stream 98,1 FM </string>
+    <string name="stream_list">List of streams:</string>
+
+    <string name="playlist_first">Random song</string>
+    <string name="playlist_second">Best of 90s song</string>
+    <string name="playlist_third">Best of 80s song</string>
+    <string name="playlist_fourth">Disco song</string>
+    <string name="playlist_fifth">Background music song</string>
+    <string name="text_ArrayAdapter">Name of Stream \nDescription of stream radio.</string>
+
+
+</resources>

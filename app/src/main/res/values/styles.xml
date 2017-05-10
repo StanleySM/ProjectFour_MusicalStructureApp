@@ -1,0 +1,271 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/gradient_start_color</item>
+    </style>
+
+
+    <!-- Action Bar.
+    <style name="ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:displayOptions">homeAsUp</item>
+    </style>-->
+
+    <!-- Hint Text for all activity -->
+    <style name="hint_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:radius">200dp</item>
+        <item name="android:background">@color/divider_transparent30</item>
+    </style>
+    <!-- QuickSearch topTool -->
+    <style name="quick_search">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textColorHint">@color/divider_transparent50</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/gradient_end_color80</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="menu_icon">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+    <style name="menu_text">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="menu_button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/divider_transparent20</item>
+
+    </style>
+
+    <!-- Bottom player -->
+    <style name="player_bottom">
+        <item name="android:textColorHint">@color/divider_transparent50</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@color/gradient_start_color80</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="player_image">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/divider_transparent30</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="player_bottom_text">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/icons</item>
+
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="player_bottom_icons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="now_playing_image" parent="AppTheme">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/divider_transparent30</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <!-- Divider line -->
+    <style name="divider_horizontal">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="divider_vertical">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <!-- Playlist style -->
+    <style name="group_image_style">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/divider_transparent30</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="song_list">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/divider_transparent30</item>
+    </style>
+    <style name="group_header">
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@color/divider_transparent20</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+
+    </style>
+
+    <!-- Player -->
+    <style name="player">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="player_big_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="player_buttons_big">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="player_buttons_big_play">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+    <style name="player_buttons_small">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+    <style name="soupatko">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_above">@+id/player</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <!-- Array with streams -->
+    <style name="blank_ArrayAdapter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="imageView_ArrayAdapter">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="stream_image">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="stream_text">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="stream_buttons">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+    <style name="layoutForArray">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="stream_list_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+    <style name="stream_list_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+
+</resources>
