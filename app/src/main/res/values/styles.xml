@@ -9,11 +9,6 @@
     </style>
 
 
-    <!-- Action Bar.
-    <style name="ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
-        <item name="android:displayOptions">homeAsUp</item>
-    </style>-->
-
     <!-- Hint Text for all activity -->
     <style name="hint_text_view">
         <item name="android:layout_width">match_parent</item>
@@ -161,7 +156,7 @@
         <item name="android:gravity">center_vertical|center_horizontal</item>
         <item name="android:padding">5dp</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:layout_marginBottom">10sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
 
     </style>
 
